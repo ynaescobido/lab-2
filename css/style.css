@@ -4,32 +4,78 @@
     box-sizing: border-box;
 }
 
+
+/* Header */
+
 header {
     display: flex;
     flex-direction: column;
+    background-color: lightblue;
+    padding: 20px;
+    border-bottom: 2px solid black;
 }
+
+
+/* Navigation */
 
 nav {
     display: flex;
     flex-direction: column;
 }
 
+nav a {
+    color: black;
+    padding: 5px;
+}
+
+
+/* Bio Section */
+
 .bio-hero {
     flex-basis: 100%;
+    background-color: aquamarine;
+    padding: 20px;
+    border-bottom: 2px solid black;
 }
+
+
+/* Card Container */
 
 .card-grid {
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
+
+
+/* Cards */
 
 .card {
     flex-basis: 100%;
+    background-color:lightskyblue;
+    border: 2px solid black;
+    padding: 15px;
+    margin-bottom: 15px;
 }
 
+
+/* Card Hover */
+
 .card:hover {
-    border: 1px solid blueviolet;
+    background-color: lightgray;
 }
+
+
+/* Footer */
+
+footer {
+    background-color: lightblue;
+    border-top: 2px solid black;
+    padding: 20px;
+}
+
+
+/* Desktop Version */
 
 @media (min-width: 768px) {
 
@@ -49,6 +95,7 @@ nav {
 
     .card {
         flex-basis: 30%;
+        margin-bottom: 0;
     }
 
 }
