@@ -10,9 +10,7 @@
 header {
     display: flex;
     flex-direction: column;
-
     background-color:lightseagreen;
-
     border: 2px solid black;
     padding: 20px;
 }
@@ -48,9 +46,7 @@ nav a {
 .card-grid {
     display: flex;
     flex-direction: column;
-
     background-color:aquamarine;
-
     padding: 20px;
 }
 
@@ -59,11 +55,8 @@ nav a {
 
 .card {
     flex-basis: 100%;
-
     background-color:azure;
-
     border: 3px solid black;
-
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -81,9 +74,7 @@ nav a {
 
 footer {
     background-color: lightgreen;
-
     border: 2px solid black;
-
     padding: 20px;
 }
 
